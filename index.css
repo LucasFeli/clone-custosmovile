@@ -1,15 +1,39 @@
 
+.clients-area img {
+    margin-top: 25px;
+    margin-left:150px
+}
+
+#indice{
+    width: 180px;
+}
+
+.buttons {
+    margin-left: 550px;
+}
+
+.clients-area{
+    display: flex;
+}
 
 .navigation li a {
     color: rgba(37, 37, 241, 0.801);
     text-decoration: none;
-   
+    
     
 }
 
 
 .navigation ul {
+    margin-left: 350px;
+    width: 500px;
+    height: 100px;
     list-style-type: none;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+   
+}
+
+.informacion{
+    display: flex;
 }
