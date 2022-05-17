@@ -1,0 +1,15 @@
+
+
+.navigation li a {
+    color: rgba(37, 37, 241, 0.801);
+    text-decoration: none;
+   
+    
+}
+
+
+.navigation ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
