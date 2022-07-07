@@ -1,89 +1,85 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 
-.clients-area img {
-    margin-top: 25px;
-    margin-left:150px
-}
-
-#indice{
-    width: 180px;
-}
-
-.buttons {
-    margin-left: 550px;
-}
-
-.clients-area{
+header{
+    position:fixed;
+    top:0; left :0; right:0;
+    padding:0px 7%;
+    align-items:center;
+    justify-content: space-between;
+    z-index: 1000;
     display: flex;
+
 }
 
-.navigation li a {
-    color: rgba(37, 37, 241, 0.801);
-    text-decoration: none;
-    padding-left: 8px;
-   font-family: 'Open Sans', sans-serif;
-}
-
-
-.navigation ul {
-    margin-left: 250px;
-    width: 400px;
-    height: 100px;
+header .navigation ul{
     list-style-type: none;
+}
+
+header .navigation ul li {
+    position: relative;
+    float: left;
+}
+
+header .navigation ul li #buttons{
+    display: block;
+    padding:20px
+}
+
+header #indice {
+    height: 55px;
+    width: 55px;
+}
+
+input {
     display: flex;
     justify-content: space-between;
 }
 
-input{
-    display: flex;
-    justify-content: space-between;
+.btn-enviar {
+    padding-left: 140px
 }
 
-.btn-enviar{
-    padding-left:140px
-}
-
-.informacion{
+.informacion {
     display: flex;
     margin-left: 150px;
     font-family: 'Open Sans', sans-serif;
 }
 
-.custos_direccion{
+.custos_direccion {
     padding-right: 50px
 }
 
-.newsletter{
+.newsletter {
     padding-right: 40px;
-   
+
 }
-.newsletter h1{
+
+.newsletter h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.noticias h1{
+.noticias h1 {
     font-family: 'Open Sans', sans-serif;
 }
 
-.noticias p a{
+.noticias p a {
     font-size: 15px;
     text-decoration: none;
     color: black;
-    
+
 }
 
-footer ul{
+footer ul {
     display: flex;
     justify-content: center;
     list-style-type: none;
 }
 
-footer a{
+footer a {
     text-decoration: none;
 }
 
-footer ul li{
+footer ul li {
     justify-content: space-around;
     padding-left: 8px;
 }
-
