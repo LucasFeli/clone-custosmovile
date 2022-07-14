@@ -1,33 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@200&display=swap');
+
+
+.first{
+    border-bottom: 10px solid blue;
+}
 
 header{
     position:fixed;
     top:0; left :0; right:0;
     padding:0px 7%;
     align-items:center;
-    justify-content: space-between;
     z-index: 1000;
     display: flex;
+    
 
 }
 
-header .navigation ul{
+header .buttons{
+    height: 4px;
+    display: inline-block;
+    margin-left: 850px;
+    
+}
+
+.navigation ul{
     list-style-type: none;
 }
 
-header .navigation ul li {
+.navigation ul li {
     position: relative;
     float: left;
 }
 
-header .navigation ul li #buttons{
+.navigation ul li a{
     display: block;
-    padding:20px
+    padding:8px;
+    margin-top: 90px;
+    margin-left: 70px;
+    text-decoration: none;
+    font-family: 'Public Sans', sans-serif;
+    color:#2a95c3;
+    font-size: 18px;
 }
 
-header #indice {
-    height: 55px;
-    width: 55px;
+#indice {
+    margin-top: 18px;
+    height: 52px;
+    width: 176px;
 }
 
 input {
@@ -82,4 +102,8 @@ footer a {
 footer ul li {
     justify-content: space-around;
     padding-left: 8px;
+}
+
+@media screen and (max-width: 767px) and (min-width: 320px) {
+    
 }
